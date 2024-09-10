@@ -6,7 +6,7 @@ const gif = document.querySelector(".gif");
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you more 😌❤️ p.s sorry no is not an option xx";
-  gif.src = "https://media.giphy.com/media/10hO3rDN8jQF1W/giphy.gif"; // Generic I Love You gif
+  gif.src = "https://media.tenor.com/images/00b6b1e1ae5c34e1b022c9d8cbeb026b/tenor.gif"; // Generic I Love You gif
 });
 
 // Make the No button move randomly on hover
