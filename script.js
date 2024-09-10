@@ -6,6 +6,7 @@ const gif = document.querySelector(".gif");
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you more 😌❤️ p.s sorry no is not an option xx";
+  gif.src = "https://media.tenor.com/images/00b6b1e1ae5c34e1b022c9d8cbeb026b/tenor.gif"; // Reliable I Love You gif
 });
 
 // Make the No button move randomly on hover
@@ -21,6 +22,7 @@ noBtn.addEventListener("mouseover", () => {
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
 
+  noBtn.style.position = 'absolute'; // Ensure the button can move
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
