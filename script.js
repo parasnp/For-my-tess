@@ -3,10 +3,10 @@ const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 
-// Change text and gif when the Yes button is clicked
+// Change text and remove gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you more 😌❤️ p.s sorry no is not an option xx";
-  gif.src = "https://media.tenor.com/images/00b6b1e1ae5c34e1b022c9d8cbeb026b/tenor.gif"; // Reliable I Love You gif
+  gif.style.display = "none"; // Hide the gif
 });
 
 // Make the No button move randomly on hover
